@@ -4,7 +4,7 @@
 
 ### Scratch Data
 1. [Selenium](https://github.com/uranus-wyx/shopee/blob/main/selenium%20script.py)
-2. [Crawler](https://github.com/uranus-wyx/shopee/blob/main/crawler.py)
+2. [WebCrawler](https://github.com/uranus-wyx/shopee/blob/main/crawler.py)
 
 ### Design Tools 
 
