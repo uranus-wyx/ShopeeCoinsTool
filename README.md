@@ -9,6 +9,7 @@
 ### Design Tools 
 
 *  [AutoUpdateCoins](https://github.com/uranus-wyx/shopee/tree/main/AutoCoinsUpdate)
+
 We need to test function in Coins over 15 countries, and it took us time to wait and operate preconditions manually.
 To solve the problem that Coins involved permissions and limitations, I figure out a method that can help our team to reduce time and effort to set preconditions automatically.
 
