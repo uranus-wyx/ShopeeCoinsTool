@@ -112,10 +112,10 @@ def InputPromoTime(arg):
             <InitialWebDriver browser="chrome" result="1"/>
             <LaunchPromotionAdmin result="1"/>
             <SleepTime second="10" result="1"/>
-            <AdminNewPromotionTab.ClickSubTabOnLeftPanel subtab="seller_discount" result="1"/>
+            <[Function_Page].ClickSubTabOnLeftPanel subtab="seller_discount" result="1"/>
 
             <!-- Step2 : Click "New Promtion" button. -->
-            <AdminNewSellerDiscountComponent.ClickOnButton button_type="overview_page_new_promotion" promo_name="" result="1"/>
+            <[Function_Page].ClickOnButton button_type="overview_page_new_promotion" promo_name="" result="1"/>
 
             <!-- Step3 : If set start time earlier than end time later than current time -->
             <!-- Step4 : Check promotion period default -->
