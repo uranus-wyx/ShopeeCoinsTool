@@ -21,7 +21,7 @@ To solve the problem that Coins involved permissions and limitations, I figure o
     Step4. Get sheet data to a list.
     Step5. Connect SQLDB and change value in certain position.
     Step6. Log data into Debug.log to track if there was any problem.
-    Step7. Deploy this function on Jenkins, it would trigger automaically once a day.
+    Step7. Deploy this on Jenkins, it would trigger automaically once a day.
     
 #### Method 2. Manual Update Coins Amount(GUI ➢ [py.file](https://github.com/uranus-wyx/shopee/blob/main/AutoCoinsUpdate/UpdateCoinsAmount.py))
 
