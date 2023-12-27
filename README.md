@@ -99,15 +99,15 @@ def InputPromoTime(arg):
         ##send selenium key event
         BaseUICore.SendSeleniumKeyEvent({"action_type": "enter", "string": "", "result": "1"})
 
-    OK(ret, int(arg['result']), 'AdminNewSellerDiscountPage.InputPromoTime')
+    OK(ret, int(arg['result']), '[Function_Page].InputPromoTime')
 ```
 
 #### Step3. Apply to XML (execute file)
 ```
-<TestCase id="TWPCSellerDiscount-010201" priority="GOLDEN">
-			<Description> 
-                [Testlink] ART-65686 : Check create promotion tab1 "Period"
-			</Description>
+<TestCase id="Title" priority="GOLDEN">
+	<Description> 
+               	 [Testlink] Title
+	</Description>
             <!-- Step1 : Path: Promotion Admin Portal > Seller Discount > Seller Discount Overview -->
             <InitialWebDriver browser="chrome" result="1"/>
             <LaunchPromotionAdmin result="1"/>
@@ -119,30 +119,30 @@ def InputPromoTime(arg):
 
             <!-- Step3 : If set start time earlier than end time later than current time -->
             <!-- Step4 : Check promotion period default -->
-            <AdminNewSellerDiscountComponent.InputToColumn column_type="create_promo_name" input_content="auto sd test time" result="1"/>
-            <AdminNewSellerDiscountComponent.InputToColumn column_type="create_shop_id" input_content="201939004" result="1"/>
-            <AdminNewSellerDiscountPage.InputPromoTime start_time="5" end_time="10" result="1"/>
+            <[Function_Page].InputToColumn column_type="create_promo_name" input_content="auto sd test time" result="1"/>
+            <[Function_Page].InputToColumn column_type="create_shop_id" input_content="**" result="1"/>
+            <[Function_Page].InputPromoTime start_time="5" end_time="10" result="1"/>
             <CheckButtonClickable method="xpath" locate="save_btn" state="enable" message="Check save and continue button clickable" result="1"/>
             <BrowserRefresh message="refresh" result="1"/>
             
             <!-- Step5 : If set start time earlier than current time -->
-            <AdminNewSellerDiscountPage.InputPromoTime start_time="-5" end_time="5" result="1"/>
+            <[Function_Page].InputPromoTime start_time="-5" end_time="5" result="1"/>
             <GetAndCheckElements method="xpath" string="Start Time cannot be earlier than the current time." isfuzzy="0" locate="alert" result="1"/>
             <BrowserRefresh message="refresh" result="1"/>
 
             <!-- Step6 : If set end time earlier than start time -->
-            <AdminNewSellerDiscountPage.InputPromoTime start_time="10" end_time="5" result="1"/>
+            <[Function_Page].InputPromoTime start_time="10" end_time="5" result="1"/>
             <SleepTime second="5" result="1"/>
             <CheckButtonClickable method="xpath" locate="save_btn" state="disable" message="Check save and continue button not clickable" result="1"/>
             <GetAndCheckElements method="xpath" string="End Time cannot be earlier than the Start Time." isfuzzy="0" locate="alert" result="1"/>
             <BrowserRefresh message="refresh" result="1"/>
 
             <!-- Step7 : If set promotion period over 180 days -->
-            <AdminNewSellerDiscountPage.InputPromoTime start_time="10" end_time="300000" result="1"/>
+            <[Function_Page].InputPromoTime start_time="10" end_time="300000" result="1"/>
             <CheckButtonClickable method="xpath" locate="save_btn" state="disable" message="Check save and continue button not clickable" result="1"/>
             <GetAndCheckElements method="xpath" string="Promotion period cannot be > 180 days." isfuzzy="0" locate="alert" result="1"/>
 
             <!-- Tear down -->
-			<DeInitialWebDriver result="1"/>
-        </TestCase>
+		<DeInitialWebDriver result="1"/>
+</TestCase>
 ```
