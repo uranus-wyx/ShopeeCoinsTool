@@ -99,50 +99,37 @@ def InputPromoTime(arg):
         ##send selenium key event
         BaseUICore.SendSeleniumKeyEvent({"action_type": "enter", "string": "", "result": "1"})
 
-    OK(ret, int(arg['result']), '[Function_Page].InputPromoTime')
+    OK(ret, int(arg['result']), 'AdminNewSellerDiscountPage.InputPromoTime')
 ```
 
 #### Step3. Apply to XML (execute file)
 ```
-<TestCase id="Title" priority="GOLDEN">
-	<Description> 
-               	 [Testlink] Title
-	</Description>
-            <!-- Step1 : Path: Promotion Admin Portal > Seller Discount > Seller Discount Overview -->
-            <InitialWebDriver browser="chrome" result="1"/>
-            <LaunchPromotionAdmin result="1"/>
-            <SleepTime second="10" result="1"/>
-            <[Function_Page].ClickSubTabOnLeftPanel subtab="seller_discount" result="1"/>
+<AdminNewSellerDiscountPage.InputPromoTime start_time="5" end_time="10" result="1"/>
+```
 
-            <!-- Step2 : Click "New Promtion" button. -->
-            <[Function_Page].ClickOnButton button_type="overview_page_new_promotion" promo_name="" result="1"/>
+* ### HttpAPI   
+When the backend Platform updated to the new one, I can use API to upload data without 95% time. This process can reduce error and breakthrough the new rules to achieve the successful rate.
 
-            <!-- Step3 : If set start time earlier than end time later than current time -->
-            <!-- Step4 : Check promotion period default -->
-            <[Function_Page].InputToColumn column_type="create_promo_name" input_content="auto sd test time" result="1"/>
-            <[Function_Page].InputToColumn column_type="create_shop_id" input_content="**" result="1"/>
-            <[Function_Page].InputPromoTime start_time="5" end_time="10" result="1"/>
-            <CheckButtonClickable method="xpath" locate="save_btn" state="enable" message="Check save and continue button clickable" result="1"/>
-            <BrowserRefresh message="refresh" result="1"/>
-            
-            <!-- Step5 : If set start time earlier than current time -->
-            <[Function_Page].InputPromoTime start_time="-5" end_time="5" result="1"/>
-            <GetAndCheckElements method="xpath" string="Start Time cannot be earlier than the current time." isfuzzy="0" locate="alert" result="1"/>
-            <BrowserRefresh message="refresh" result="1"/>
+#### Step1. Initial Function
 
-            <!-- Step6 : If set end time earlier than start time -->
-            <[Function_Page].InputPromoTime start_time="10" end_time="5" result="1"/>
-            <SleepTime second="5" result="1"/>
-            <CheckButtonClickable method="xpath" locate="save_btn" state="disable" message="Check save and continue button not clickable" result="1"/>
-            <GetAndCheckElements method="xpath" string="End Time cannot be earlier than the Start Time." isfuzzy="0" locate="alert" result="1"/>
-            <BrowserRefresh message="refresh" result="1"/>
+```
+---Initial HttpAPI and Store Cookie (login data)---
+    HttpAPICore.InitialHttpAPI({"session": "unused", "json_data": "common/SellerDiscount/create_seller_discount", "result": "1"})
+    HttpAPICore.GetAndSetHttpAPIData({"collection": collection, "result": "1"})
+    AdminNewPromotionAPI.StoreNewAdminPromotionCookie({"result": "1"})
+    AdminNewPromotionAPI.AssignDataForSellerDiscount({"start_time": start_time, "end_time": end_time, "shop_id": shop_id, "title":title, "result": "1"})
+    APICommonMethod.ChangePayloadDictToStr({"result": "1"})
+    HttpAPICore.SendHttpRequest({"http_method": "post", "result": "1"})
 
-            <!-- Step7 : If set promotion period over 180 days -->
-            <[Function_Page].InputPromoTime start_time="10" end_time="300000" result="1"/>
-            <CheckButtonClickable method="xpath" locate="save_btn" state="disable" message="Check save and continue button not clickable" result="1"/>
-            <GetAndCheckElements method="xpath" string="Promotion period cannot be > 180 days." isfuzzy="0" locate="alert" result="1"/>
-
-            <!-- Tear down -->
-		<DeInitialWebDriver result="1"/>
-</TestCase>
+---Inherit HttpAPI and Send Request---
+    HttpAPICore.InitialHttpAPI({"session": "inherit", "json_data": "", "result": "1"})
+    HttpAPICore.GetAndSetHttpAPIData({"collection": "upload_product", "result": "1"})
+    ***save sth.***
+    HttpAPICore.SendHttpRequest({"http_method": "post", "result": "1"})
+    APICommonMethod.CheckAPIResponseCode({"result": "1"})
+    HttpAPICore.DeInitialHttpAPI({"result": "1"})
+```
+#### Step2. Apply to XML (execute file)
+```
+<AdminNewPromotionAPI.CreateSellerDiscount start_time="1" end_time="200" shop_id="********" title="auto test buyer cancel for pc" result="1"/>
 ```
