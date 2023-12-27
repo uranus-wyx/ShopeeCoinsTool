@@ -1,0 +1,273 @@
+2022-07-01 17:10:21 INFO line : 52 : ===Start Update Coins===
+2022-07-01 17:10:21 INFO line : 23 : Get google sheet authorization.
+2022-07-01 17:10:23 INFO line : 25 : Open google sheet.
+2022-07-01 17:10:23 INFO line : 45 : Open spreadsheet.
+2022-07-01 17:10:23 INFO line : 47 : Get all values.
+2022-07-01 17:10:23 INFO line : 48 : Total data has 46 rows
+2022-07-01 17:10:23 INFO line : 80 : Country: VN, User: 101746025, Coins Amount: 1000
+2022-07-01 17:10:23 INFO line : 80 : Country: VN, User: 101703546, Coins Amount: 1000
+2022-07-01 17:10:23 INFO line : 80 : Country: VN, User: 101746023, Coins Amount: 1000
+2022-07-01 17:10:23 INFO line : 80 : Country: VN, User: 101756725, Coins Amount: 1000
+2022-07-01 17:10:23 INFO line : 80 : Country: VN, User: 101756728, Coins Amount: 1000
+2022-07-01 17:10:23 INFO line : 80 : Country: VN, User: 101719643, Coins Amount: 30
+2022-07-01 17:10:23 INFO line : 80 : Country: VN, User: 101738791, Coins Amount: 1000
+2022-07-01 17:10:23 INFO line : 80 : Country: TH, User: 101766273, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: TH, User: 101767216, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: TH, User: 101767217, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: TH, User: 101783024, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: TH, User: 101783026, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: TH, User: 101783027, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: TH, User: 101766295, Coins Amount: 300000
+2022-07-01 17:10:23 INFO line : 80 : Country: PH, User: 101796634, Coins Amount: 100000000
+2022-07-01 17:10:23 INFO line : 80 : Country: PH, User: 101800183, Coins Amount: 100000000
+2022-07-01 17:10:23 INFO line : 80 : Country: PH, User: 101800184, Coins Amount: 100000000
+2022-07-01 17:10:23 INFO line : 80 : Country: PH, User: 101800185, Coins Amount: 100000000
+2022-07-01 17:10:23 INFO line : 80 : Country: PH, User: 101796635, Coins Amount: 300000
+2022-07-01 17:10:23 INFO line : 80 : Country: MX, User: 101805268, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: MX, User: 101824476, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: MX, User: 101824477, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: MX, User: 101824484, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: MX, User: 101807131, Coins Amount: 3000
+2022-07-01 17:10:23 INFO line : 80 : Country: MY, User: 101871046, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: MY, User: 101871051, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: MY, User: 101871054, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: MY, User: 101871055, Coins Amount: 10000000
+2022-07-01 17:10:23 INFO line : 80 : Country: MY, User: 101871047, Coins Amount: 3000
+2022-07-01 17:10:23 INFO line : 80 : Country: SG, User: 101886460, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: SG, User: 101886467, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: SG, User: 101886472, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: SG, User: 101886476, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: SG, User: 101886461, Coins Amount: 3000
+2022-07-01 17:10:23 INFO line : 80 : Country: CO, User: 101947631, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: CO, User: 101947632, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: CO, User: 101947635, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: CO, User: 101947636, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: CO, User: 101947634, Coins Amount: 3000
+2022-07-01 17:10:23 INFO line : 80 : Country: ID, User: 101285520, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: ID, User: 100721699, Coins Amount: 1000000
+2022-07-01 17:10:23 INFO line : 80 : Country: TW, User: 101942030, Coins Amount: 100000000
+2022-07-01 17:10:23 INFO line : 80 : Country: TW, User: 100704281, Coins Amount: 100000000
+2022-07-01 17:10:23 INFO line : 80 : Country: ID, User: 100011228, Coins Amount: 3000
+2022-07-01 17:10:23 INFO line : 83 : Complete get update data into list
+2022-07-01 17:10:23 INFO line : 75 : ---Start analysis data---
+2022-07-01 17:10:23 INFO line : 80 : user_id: 101746025
+2022-07-01 17:10:23 INFO line : 81 : coins_amount: 1000
+2022-07-01 17:10:24 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:24 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006025` SET available_amount= '1000' WHERE userid = 101746025
+2022-07-01 17:10:24 INFO line : 114 : ---Success---
+2022-07-01 17:10:24 INFO line : 80 : user_id: 101703546
+2022-07-01 17:10:24 INFO line : 81 : coins_amount: 1000
+2022-07-01 17:10:24 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:24 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000003`.`coin_v2_tab_00003546` SET available_amount= '1000' WHERE userid = 101703546
+2022-07-01 17:10:24 INFO line : 114 : ---Success---
+2022-07-01 17:10:24 INFO line : 80 : user_id: 101746023
+2022-07-01 17:10:24 INFO line : 81 : coins_amount: 1000
+2022-07-01 17:10:25 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:25 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006023` SET available_amount= '1000' WHERE userid = 101746023
+2022-07-01 17:10:25 INFO line : 114 : ---Success---
+2022-07-01 17:10:25 INFO line : 80 : user_id: 101756725
+2022-07-01 17:10:25 INFO line : 81 : coins_amount: 1000
+2022-07-01 17:10:25 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:25 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006725` SET available_amount= '1000' WHERE userid = 101756725
+2022-07-01 17:10:25 INFO line : 114 : ---Success---
+2022-07-01 17:10:25 INFO line : 80 : user_id: 101756728
+2022-07-01 17:10:25 INFO line : 81 : coins_amount: 1000
+2022-07-01 17:10:26 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:26 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006728` SET available_amount= '1000' WHERE userid = 101756728
+2022-07-01 17:10:26 INFO line : 114 : ---Success---
+2022-07-01 17:10:26 INFO line : 80 : user_id: 101719643
+2022-07-01 17:10:26 INFO line : 81 : coins_amount: 30
+2022-07-01 17:10:26 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:26 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000009`.`coin_v2_tab_00009643` SET available_amount= '30' WHERE userid = 101719643
+2022-07-01 17:10:27 INFO line : 114 : ---Success---
+2022-07-01 17:10:27 INFO line : 80 : user_id: 101738791
+2022-07-01 17:10:27 INFO line : 81 : coins_amount: 1000
+2022-07-01 17:10:27 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:27 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000008`.`coin_v2_tab_00008791` SET available_amount= '1000' WHERE userid = 101738791
+2022-07-01 17:10:27 INFO line : 114 : ---Success---
+2022-07-01 17:10:27 INFO line : 80 : user_id: 101766273
+2022-07-01 17:10:27 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:27 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:27 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006273` SET available_amount= '10000000' WHERE userid = 101766273
+2022-07-01 17:10:28 INFO line : 114 : ---Success---
+2022-07-01 17:10:28 INFO line : 80 : user_id: 101767216
+2022-07-01 17:10:28 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:28 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:28 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000007`.`coin_v2_tab_00007216` SET available_amount= '10000000' WHERE userid = 101767216
+2022-07-01 17:10:28 INFO line : 114 : ---Success---
+2022-07-01 17:10:28 INFO line : 80 : user_id: 101767217
+2022-07-01 17:10:28 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:29 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:29 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000007`.`coin_v2_tab_00007217` SET available_amount= '10000000' WHERE userid = 101767217
+2022-07-01 17:10:29 INFO line : 114 : ---Success---
+2022-07-01 17:10:29 INFO line : 80 : user_id: 101783024
+2022-07-01 17:10:29 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:29 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:29 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000003`.`coin_v2_tab_00003024` SET available_amount= '10000000' WHERE userid = 101783024
+2022-07-01 17:10:29 INFO line : 114 : ---Success---
+2022-07-01 17:10:29 INFO line : 80 : user_id: 101783026
+2022-07-01 17:10:29 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:30 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:30 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000003`.`coin_v2_tab_00003026` SET available_amount= '10000000' WHERE userid = 101783026
+2022-07-01 17:10:30 INFO line : 114 : ---Success---
+2022-07-01 17:10:30 INFO line : 80 : user_id: 101783027
+2022-07-01 17:10:30 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:30 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:30 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000003`.`coin_v2_tab_00003027` SET available_amount= '10000000' WHERE userid = 101783027
+2022-07-01 17:10:30 INFO line : 114 : ---Success---
+2022-07-01 17:10:30 INFO line : 80 : user_id: 101766295
+2022-07-01 17:10:30 INFO line : 81 : coins_amount: 300000
+2022-07-01 17:10:31 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:31 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006295` SET available_amount= '300000' WHERE userid = 101766295
+2022-07-01 17:10:31 INFO line : 114 : ---Success---
+2022-07-01 17:10:31 INFO line : 80 : user_id: 101796634
+2022-07-01 17:10:31 INFO line : 81 : coins_amount: 100000000
+2022-07-01 17:10:32 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:32 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006634` SET available_amount= '100000000' WHERE userid = 101796634
+2022-07-01 17:10:32 INFO line : 114 : ---Success---
+2022-07-01 17:10:32 INFO line : 80 : user_id: 101800183
+2022-07-01 17:10:32 INFO line : 81 : coins_amount: 100000000
+2022-07-01 17:10:32 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:32 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000000`.`coin_v2_tab_00000183` SET available_amount= '100000000' WHERE userid = 101800183
+2022-07-01 17:10:32 INFO line : 114 : ---Success---
+2022-07-01 17:10:32 INFO line : 80 : user_id: 101800184
+2022-07-01 17:10:32 INFO line : 81 : coins_amount: 100000000
+2022-07-01 17:10:33 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:33 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000000`.`coin_v2_tab_00000184` SET available_amount= '100000000' WHERE userid = 101800184
+2022-07-01 17:10:33 INFO line : 114 : ---Success---
+2022-07-01 17:10:33 INFO line : 80 : user_id: 101800185
+2022-07-01 17:10:33 INFO line : 81 : coins_amount: 100000000
+2022-07-01 17:10:34 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:34 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000000`.`coin_v2_tab_00000185` SET available_amount= '100000000' WHERE userid = 101800185
+2022-07-01 17:10:34 INFO line : 114 : ---Success---
+2022-07-01 17:10:34 INFO line : 80 : user_id: 101796635
+2022-07-01 17:10:34 INFO line : 81 : coins_amount: 300000
+2022-07-01 17:10:34 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:34 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006635` SET available_amount= '300000' WHERE userid = 101796635
+2022-07-01 17:10:34 INFO line : 114 : ---Success---
+2022-07-01 17:10:34 INFO line : 80 : user_id: 101805268
+2022-07-01 17:10:34 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:35 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:35 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000005`.`coin_v2_tab_00005268` SET available_amount= '10000000' WHERE userid = 101805268
+2022-07-01 17:10:35 INFO line : 114 : ---Success---
+2022-07-01 17:10:35 INFO line : 80 : user_id: 101824476
+2022-07-01 17:10:35 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:36 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:36 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000004`.`coin_v2_tab_00004476` SET available_amount= '10000000' WHERE userid = 101824476
+2022-07-01 17:10:36 INFO line : 114 : ---Success---
+2022-07-01 17:10:36 INFO line : 80 : user_id: 101824477
+2022-07-01 17:10:36 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:37 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:37 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000004`.`coin_v2_tab_00004477` SET available_amount= '10000000' WHERE userid = 101824477
+2022-07-01 17:10:37 INFO line : 114 : ---Success---
+2022-07-01 17:10:37 INFO line : 80 : user_id: 101824484
+2022-07-01 17:10:37 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:37 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:37 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000004`.`coin_v2_tab_00004484` SET available_amount= '10000000' WHERE userid = 101824484
+2022-07-01 17:10:37 INFO line : 114 : ---Success---
+2022-07-01 17:10:37 INFO line : 80 : user_id: 101807131
+2022-07-01 17:10:37 INFO line : 81 : coins_amount: 3000
+2022-07-01 17:10:38 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:38 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000007`.`coin_v2_tab_00007131` SET available_amount= '3000' WHERE userid = 101807131
+2022-07-01 17:10:38 INFO line : 114 : ---Success---
+2022-07-01 17:10:38 INFO line : 80 : user_id: 101871046
+2022-07-01 17:10:38 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:38 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:38 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000001`.`coin_v2_tab_00001046` SET available_amount= '10000000' WHERE userid = 101871046
+2022-07-01 17:10:38 INFO line : 114 : ---Success---
+2022-07-01 17:10:38 INFO line : 80 : user_id: 101871051
+2022-07-01 17:10:38 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:38 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:38 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000001`.`coin_v2_tab_00001051` SET available_amount= '10000000' WHERE userid = 101871051
+2022-07-01 17:10:39 INFO line : 114 : ---Success---
+2022-07-01 17:10:39 INFO line : 80 : user_id: 101871054
+2022-07-01 17:10:39 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:39 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:39 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000001`.`coin_v2_tab_00001054` SET available_amount= '10000000' WHERE userid = 101871054
+2022-07-01 17:10:39 INFO line : 114 : ---Success---
+2022-07-01 17:10:39 INFO line : 80 : user_id: 101871055
+2022-07-01 17:10:39 INFO line : 81 : coins_amount: 10000000
+2022-07-01 17:10:39 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:39 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000001`.`coin_v2_tab_00001055` SET available_amount= '10000000' WHERE userid = 101871055
+2022-07-01 17:10:40 INFO line : 114 : ---Success---
+2022-07-01 17:10:40 INFO line : 80 : user_id: 101871047
+2022-07-01 17:10:40 INFO line : 81 : coins_amount: 3000
+2022-07-01 17:10:40 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:40 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000001`.`coin_v2_tab_00001047` SET available_amount= '3000' WHERE userid = 101871047
+2022-07-01 17:10:40 INFO line : 114 : ---Success---
+2022-07-01 17:10:40 INFO line : 80 : user_id: 101886460
+2022-07-01 17:10:40 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:40 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:40 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006460` SET available_amount= '1000000' WHERE userid = 101886460
+2022-07-01 17:10:41 INFO line : 114 : ---Success---
+2022-07-01 17:10:41 INFO line : 80 : user_id: 101886467
+2022-07-01 17:10:41 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:41 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:41 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006467` SET available_amount= '1000000' WHERE userid = 101886467
+2022-07-01 17:10:41 INFO line : 114 : ---Success---
+2022-07-01 17:10:41 INFO line : 80 : user_id: 101886472
+2022-07-01 17:10:41 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:41 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:41 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006472` SET available_amount= '1000000' WHERE userid = 101886472
+2022-07-01 17:10:41 INFO line : 114 : ---Success---
+2022-07-01 17:10:41 INFO line : 80 : user_id: 101886476
+2022-07-01 17:10:41 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:42 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:42 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006476` SET available_amount= '1000000' WHERE userid = 101886476
+2022-07-01 17:10:42 INFO line : 114 : ---Success---
+2022-07-01 17:10:42 INFO line : 80 : user_id: 101886461
+2022-07-01 17:10:42 INFO line : 81 : coins_amount: 3000
+2022-07-01 17:10:42 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:42 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006461` SET available_amount= '3000' WHERE userid = 101886461
+2022-07-01 17:10:42 INFO line : 114 : ---Success---
+2022-07-01 17:10:42 INFO line : 80 : user_id: 101947631
+2022-07-01 17:10:42 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:43 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:43 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000007`.`coin_v2_tab_00007631` SET available_amount= '1000000' WHERE userid = 101947631
+2022-07-01 17:10:43 INFO line : 114 : ---Success---
+2022-07-01 17:10:43 INFO line : 80 : user_id: 101947632
+2022-07-01 17:10:43 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:44 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:44 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000007`.`coin_v2_tab_00007632` SET available_amount= '1000000' WHERE userid = 101947632
+2022-07-01 17:10:44 INFO line : 114 : ---Success---
+2022-07-01 17:10:44 INFO line : 80 : user_id: 101947635
+2022-07-01 17:10:44 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:44 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:44 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000007`.`coin_v2_tab_00007635` SET available_amount= '1000000' WHERE userid = 101947635
+2022-07-01 17:10:44 INFO line : 114 : ---Success---
+2022-07-01 17:10:44 INFO line : 80 : user_id: 101947636
+2022-07-01 17:10:44 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:45 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:45 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000007`.`coin_v2_tab_00007636` SET available_amount= '1000000' WHERE userid = 101947636
+2022-07-01 17:10:45 INFO line : 114 : ---Success---
+2022-07-01 17:10:45 INFO line : 80 : user_id: 101947634
+2022-07-01 17:10:45 INFO line : 81 : coins_amount: 3000
+2022-07-01 17:10:46 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:46 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000007`.`coin_v2_tab_00007634` SET available_amount= '3000' WHERE userid = 101947634
+2022-07-01 17:10:46 INFO line : 114 : ---Success---
+2022-07-01 17:10:46 INFO line : 80 : user_id: 101285520
+2022-07-01 17:10:46 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:46 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:46 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000005`.`coin_v2_tab_00005520` SET available_amount= '1000000' WHERE userid = 101285520
+2022-07-01 17:10:46 INFO line : 114 : ---Success---
+2022-07-01 17:10:46 INFO line : 80 : user_id: 100721699
+2022-07-01 17:10:46 INFO line : 81 : coins_amount: 1000000
+2022-07-01 17:10:47 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:47 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000001`.`coin_v2_tab_00001699` SET available_amount= '1000000' WHERE userid = 100721699
+2022-07-01 17:10:47 INFO line : 114 : ---Success---
+2022-07-01 17:10:47 INFO line : 80 : user_id: 101942030
+2022-07-01 17:10:47 INFO line : 81 : coins_amount: 100000000
+2022-07-01 17:10:47 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:47 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000002`.`coin_v2_tab_00002030` SET available_amount= '100000000' WHERE userid = 101942030
+2022-07-01 17:10:47 INFO line : 114 : ---Success---
+2022-07-01 17:10:47 INFO line : 80 : user_id: 100704281
+2022-07-01 17:10:47 INFO line : 81 : coins_amount: 100000000
+2022-07-01 17:10:47 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:47 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000004`.`coin_v2_tab_00004281` SET available_amount= '100000000' WHERE userid = 100704281
+2022-07-01 17:10:48 INFO line : 114 : ---Success---
+2022-07-01 17:10:48 INFO line : 80 : user_id: 100011228
+2022-07-01 17:10:48 INFO line : 81 : coins_amount: 3000
+2022-07-01 17:10:48 INFO line : 26 : Connect to DB.
+2022-07-01 17:10:48 INFO line : 109 : sql_cmd: UPDATE `shopee_coins_v2_db_00000001`.`coin_v2_tab_00001228` SET available_amount= '3000' WHERE userid = 100011228
+2022-07-01 17:10:48 INFO line : 114 : ---Success---
+2022-07-01 17:10:49 INFO line : 66 : ===Complete Update Coins===

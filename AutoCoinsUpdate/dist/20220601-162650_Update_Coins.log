@@ -1,0 +1,35 @@
+2022-06-01 16:26:50 INFO line : 310 : ===Start Update Coins===
+2022-06-01 16:27:25 INFO line : 164 : Click Confirm Button
+2022-06-01 16:27:25 INFO line : 179 : For VN, coins rate is 1:100, calculating = 0
+2022-06-01 16:27:28 INFO line : 208 : For VN rate 1:100, Coins amount must larger than 100
+2022-06-01 16:27:37 INFO line : 164 : Click Confirm Button
+2022-06-01 16:27:37 INFO line : 179 : For VN, coins rate is 1:100, calculating = 1000
+2022-06-01 16:27:37 INFO line : 105 : ---Start analysis data---
+2022-06-01 16:27:37 INFO line : 110 : user_id: 101738791
+2022-06-01 16:27:37 INFO line : 111 : coins_amount: 1000
+2022-06-01 16:27:37 INFO line : 56 : Connect to DB.
+2022-06-01 16:27:37 INFO line : 139 : sql_cmd: UPDATE `shopee_coins_v2_db_00000008`.`coin_v2_tab_00008791` SET available_amount= '1000' WHERE userid = 101738791
+2022-06-01 16:27:37 INFO line : 144 : ---Success---
+2022-06-01 16:27:39 INFO line : 202 : Country: VN, User ID: 101738791, Coins Amount: 100000 
+2022-06-01 17:01:25 INFO line : 164 : Click Confirm Button
+2022-06-01 17:01:25 INFO line : 179 : For VN, coins rate is 1:100, calculating = 0
+2022-06-01 17:01:27 INFO line : 208 : For VN rate 1:100, Coins amount must larger than 100
+2022-06-01 17:01:33 INFO line : 164 : Click Confirm Button
+2022-06-01 17:01:33 INFO line : 179 : For VN, coins rate is 1:100, calculating = 1000
+2022-06-01 17:01:33 INFO line : 105 : ---Start analysis data---
+2022-06-01 17:01:33 INFO line : 110 : user_id: 101738791
+2022-06-01 17:01:33 INFO line : 111 : coins_amount: 1000
+2022-06-01 17:01:34 INFO line : 56 : Connect to DB.
+2022-06-01 17:01:34 INFO line : 139 : sql_cmd: UPDATE `shopee_coins_v2_db_00000008`.`coin_v2_tab_00008791` SET available_amount= '1000' WHERE userid = 101738791
+2022-06-01 17:01:34 INFO line : 144 : ---Success---
+2022-06-01 17:01:35 INFO line : 202 : Country: VN, User ID: 101738791, Coins Amount: 100000 
+2022-06-01 17:03:22 INFO line : 164 : Click Confirm Button
+2022-06-01 17:03:22 INFO line : 179 : For VN, coins rate is 1:100, calculating = 1000
+2022-06-01 17:03:22 INFO line : 105 : ---Start analysis data---
+2022-06-01 17:03:22 INFO line : 110 : user_id: 101738791
+2022-06-01 17:03:22 INFO line : 111 : coins_amount: 1000
+2022-06-01 17:03:22 INFO line : 56 : Connect to DB.
+2022-06-01 17:03:22 INFO line : 139 : sql_cmd: UPDATE `shopee_coins_v2_db_00000008`.`coin_v2_tab_00008791` SET available_amount= '1000' WHERE userid = 101738791
+2022-06-01 17:03:22 INFO line : 144 : ---Success---
+2022-06-01 17:03:23 INFO line : 202 : Country: VN, User ID: 101738791, Coins Amount: 100000 
+2022-06-01 17:03:25 INFO line : 312 : ===Finish Update Coins===

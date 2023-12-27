@@ -1,0 +1,37 @@
+2022-07-01 17:11:53 INFO line : 308 : ===Start Update Coins===
+2022-07-01 17:12:02 INFO line : 162 : Click Confirm Button
+2022-07-01 17:12:02 INFO line : 177 : For VN, coins rate is 1:100, calculating = 1000
+2022-07-01 17:12:02 INFO line : 103 : ---Start analysis data---
+2022-07-01 17:12:02 INFO line : 108 : user_id: 101738791
+2022-07-01 17:12:02 INFO line : 109 : coins_amount: 1000
+2022-07-01 17:12:02 INFO line : 54 : Connect to DB.
+2022-07-01 17:12:02 INFO line : 137 : sql_cmd: UPDATE `shopee_coins_v2_db_00000008`.`coin_v2_tab_00008791` SET available_amount= '1000' WHERE userid = 101738791
+2022-07-01 17:12:02 INFO line : 142 : ---Success---
+2022-07-01 17:12:04 INFO line : 200 : Country: VN, User ID: 101738791, Coins Amount: 100000 
+2022-07-01 17:17:46 INFO line : 162 : Click Confirm Button
+2022-07-01 17:17:46 INFO line : 177 : For VN, coins rate is 1:100, calculating = 10000
+2022-07-01 17:17:46 INFO line : 103 : ---Start analysis data---
+2022-07-01 17:17:46 INFO line : 108 : user_id: 101746025
+2022-07-01 17:17:46 INFO line : 109 : coins_amount: 10000
+2022-07-01 17:17:46 INFO line : 54 : Connect to DB.
+2022-07-01 17:17:46 INFO line : 137 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006025` SET available_amount= '10000' WHERE userid = 101746025
+2022-07-01 17:17:47 INFO line : 142 : ---Success---
+2022-07-01 17:17:48 INFO line : 200 : Country: VN, User ID: 101746025, Coins Amount: 1000000 
+2022-07-01 17:18:02 INFO line : 162 : Click Confirm Button
+2022-07-01 17:18:02 INFO line : 177 : For VN, coins rate is 1:100, calculating = 3000
+2022-07-01 17:18:02 INFO line : 103 : ---Start analysis data---
+2022-07-01 17:18:02 INFO line : 108 : user_id: 101746025
+2022-07-01 17:18:02 INFO line : 109 : coins_amount: 3000
+2022-07-01 17:18:02 INFO line : 54 : Connect to DB.
+2022-07-01 17:18:02 INFO line : 137 : sql_cmd: UPDATE `shopee_coins_v2_db_00000006`.`coin_v2_tab_00006025` SET available_amount= '3000' WHERE userid = 101746025
+2022-07-01 17:18:03 INFO line : 142 : ---Success---
+2022-07-01 17:18:04 INFO line : 200 : Country: VN, User ID: 101746025, Coins Amount: 300000 
+2022-07-01 17:18:24 INFO line : 162 : Click Confirm Button
+2022-07-01 17:18:24 INFO line : 177 : For VN, coins rate is 1:100, calculating = 3000
+2022-07-01 17:18:24 INFO line : 103 : ---Start analysis data---
+2022-07-01 17:18:24 INFO line : 108 : user_id: 101738791
+2022-07-01 17:18:24 INFO line : 109 : coins_amount: 3000
+2022-07-01 17:18:24 INFO line : 54 : Connect to DB.
+2022-07-01 17:18:24 INFO line : 137 : sql_cmd: UPDATE `shopee_coins_v2_db_00000008`.`coin_v2_tab_00008791` SET available_amount= '3000' WHERE userid = 101738791
+2022-07-01 17:18:24 INFO line : 142 : ---Success---
+2022-07-01 17:18:28 INFO line : 200 : Country: VN, User ID: 101738791, Coins Amount: 300000 
