@@ -1,5 +1,5 @@
-# Work Experience
-#### shopee
+# Shopee
+#### Designed a tool that reducing 90% times to test, optimizing the efficiency of automation testing by 95%.
 
 #### I have been a software engineer. I took responsibility for transferring the testing process automatically. Applying Python, SQL, Go language, and other development tools to establish a cycle to optimize the quality of the website and application.
 
